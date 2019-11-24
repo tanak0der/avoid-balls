@@ -1,0 +1,26 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+	position: absolute;
+}
+.display {
+	width: 500px;
+	height: 500px;
+	margin: 50px auto 0px;
+}
+.score-block {
+	width: 500px;
+	height: 25px;
+	margin: 0px auto;
+}
+.autoCleared {
+	margin-top: 10px;
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+  border-style: solid;
+  border-width: 2px;
+  padding: 1px 7px 2px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<link rel="stylesheet" type="text/css" href="main.css" />
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="ball.js"></script>
+<body onload="init()">
+	<div class="display">
+		<canvas id="display" width="500" height="500">
+			
+		</canvas>
+		<canvas id="moveableBox" width="500" height="500"></canvas>
+	</div>
+	<div class="score-block">
+		<span>LEVEL：</span>
+		<span id="stageLevel"></span>
+		<span style="float: right;">慎重モード：<span id="carefulMode"></span></span>
+		
+		<div>Ｗキー：進む<br>Ｓキー：戻る<br>Ｃキー：慎重モード切替</div>
+		<button class="autoCleared" style="display: none;" onclick="nextStageStart(true)">クリアにしちゃうボタン</button>
+	</div>
+</body>
+</html>
